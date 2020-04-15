@@ -1,0 +1,12 @@
+apm-server:
+  host: "0.0.0.0:8200"
+output.elasticsearch:
+  enabled: true
+  hosts: ["elasticsearch:9200"]
+  username: elastic
+  password: changeme
+output.logstash:
+  enabled: false
+  hosts: ["logstash:5044"]
+setup.kibana:
+  host: ["kibana:5601"]
